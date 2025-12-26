@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Login = () => {
   const handleGitHubLogin = () => {
     // Simulate OAuth flow - redirect to onboarding
-    window.location.href = "/onboarding";
+    window.location.href = "https://git-mate-wmg5.vercel.app/profile";
   };
 
   return (
